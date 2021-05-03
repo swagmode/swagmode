@@ -19,6 +19,7 @@ local STARS = {
     354810459, ---kaykeljam72
     244944859,
     23788749, -- new
+    1598492570,
 }
 local BOOSTERS = {
     748134395, -- fyn
@@ -86,13 +87,17 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('kristina kristina')
                         end
-                    elseif plrID == 1736738991 then
-                        if v:FindFirstChildWhichIsA('Humanoid') then           
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🤵]' .. game.Players[v.Name].DisplayName)
-                        end
                     elseif plrID == 1688589423 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😋]' .. game.Players[v.Name].DisplayName)
+                        end
+                    elseif plrID == 659965910 then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💀]' .. game.Players[v.Name].DisplayName)
+                        end
+                    elseif plrID == 729041721 or plrID == 345127944  then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🐈]' .. game.Players[v.Name].DisplayName)
                         end
                     elseif plrID == 1801218662 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
@@ -106,7 +111,7 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🦋]' .. game.Players[v.Name].DisplayName) 
                         end
-                    elseif plrID == 296946548 or plrID == 132062130 then
+                    elseif plrID == 296946548 or plrID == 132062130 or plrID == 1086148559 or plrID == 40781734 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🖤]' .. game.Players[v.Name].DisplayName) 
                         end
