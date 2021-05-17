@@ -257,4 +257,3 @@ local function checkswag()
 end
 
 local succ, errr = pcall(checkswag)
-
