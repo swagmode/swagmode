@@ -257,4 +257,4 @@ local function checkswag()
 end
 
 local succ, errr = pcall(checkswag)
-© 2021 GitHub, Inc.
+
