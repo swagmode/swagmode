@@ -64,6 +64,7 @@ ModIDS = {
     [95537733] = true, --discord 624288699039088641
     [1736738991] = true, -- my alt for a test
     [2374258463] = true, --discord 689903366993739811
+    [175190440] = true, --discord 828071070170218527
 }
 
 return ModIDS
