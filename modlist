@@ -73,6 +73,7 @@ ModIDS = {
     [175190440] = true, --discord 828071070170218527
     [66834927] = true,
     [109116428] = true,
+    [1948485399] = true,
 }
 
 return ModIDS
