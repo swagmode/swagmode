@@ -91,6 +91,7 @@ ModIDS = {
     [288159876] = true,
     [29463935] = true,
     [1227474480] = true,
+    [1063324] = true, --1 day
 }
 
 return ModIDS
