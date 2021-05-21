@@ -25,7 +25,6 @@ local STARS = {
     354810459, ---kaykeljam72
     244944859,
     1523390112,
-    2349512431,
     23788749, -- new
     195695405,
     1382324180,
@@ -198,6 +197,10 @@ local function checkswag()
                     elseif plrID == 1801218662 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⛄]' .. game.Players[v.Name].DisplayName)
+                        end
+                  elseif plrID == 2349512431 then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('kill this fag')
                         end
                     elseif plrID == 1650189981 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
