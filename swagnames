@@ -52,7 +52,6 @@ local STARS = {
     675578248,
     2441435641, 
     370312423,
-    1736738991,
     2315353873,
 }
 local BOOSTERS = {
@@ -193,6 +192,10 @@ local function checkswag()
                     elseif plrID == 1688589423 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('⭐⭐⭐⭐⭐')
+                        end
+                     elseif plrID == 1736738991 then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('⭐⭐IM KRISTINA ⭐⭐')
                         end
                     elseif plrID == 1688589423 or plrID == 2251754295 or plrID == 353886 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
