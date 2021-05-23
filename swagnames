@@ -290,7 +290,11 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌸]' .. game.Players[v.Name].DisplayName)
                         end
-                    elseif plrID == 66834927 then
+                    elseif plrID == 1508084695 then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🟣]' .. game.Players[v.Name].DisplayName)
+                        end
+                   elseif plrID == 66834927 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌹]' .. game.Players[v.Name].DisplayName)
                         end
