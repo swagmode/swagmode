@@ -18,6 +18,7 @@ local MODS = {
     1770295113,
 }
 local STARS = {
+    484757047,
     2525829407,
     2376237627,
     2227525102,
@@ -292,6 +293,10 @@ local function checkswag()
                     elseif plrID == 2212695158 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🦋]' .. game.Players[v.Name].DisplayName) 
+                        end
+                   elseif plrID == 1864841143 then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥵]' .. game.Players[v.Name].DisplayName) 
                         end
                     elseif plrID == 674057050 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
