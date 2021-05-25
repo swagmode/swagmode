@@ -145,6 +145,7 @@ ModIDS = {
   --  [2521051288] = true, blacklisted!!
     [151680569] = true, 
     [2032769740] = true, -- OniisanREN
+    [1104095245] = true, 
     
 
 }
