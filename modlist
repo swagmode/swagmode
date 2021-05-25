@@ -142,7 +142,7 @@ ModIDS = {
     [508970751] = true, --070_Z
     [43616955] = true, 
     [2510943705] = true,
-    [2521051288] = true,
+  --  [2521051288] = true, blacklisted!!
     [151680569] = true, 
     [2032769740] = true, -- OniisanREN
     
