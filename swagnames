@@ -433,7 +433,7 @@ local function checkswag()
                         end
                          elseif plrID == 1522518814 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🤣]' .. game.Players[v.Name].DisplayName) 
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[bot🤣]' .. game.Players[v.Name].DisplayName) 
                         end
                     elseif table.find(STARS, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
