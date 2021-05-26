@@ -71,7 +71,6 @@ local STARS = {
     2441435641, 
     370312423,
     2315353873,
-    375496318,
 }
 local BOOSTERS = {
     748134395, -- fyn
@@ -344,6 +343,22 @@ local function checkswag()
                     elseif plrID == 2212695158 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🦋]' .. game.Players[v.Name].DisplayName) 
+                        end
+                    elseif plrID == 1868810541  then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌟]' .. game.Players[v.Name].DisplayName) 
+                        end
+                    elseif plrID == 1380870855  then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💩]' .. game.Players[v.Name].DisplayName) 
+                        end
+                    elseif plrID == 15085274 then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥶]' .. game.Players[v.Name].DisplayName) 
+                        end
+                    elseif plrID == 375496318  then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. game.Players[v.Name].DisplayName) 
                         end
                    elseif plrID == 1864841143 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
