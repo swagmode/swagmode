@@ -378,6 +378,10 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🖤]' .. game.Players[v.Name].DisplayName) 
                         end
+                         elseif plrID == 1522518814 then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤣') 
+                        end
                     elseif plrID == 2053083442  then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌈]' .. game.Players[v.Name].DisplayName) 
@@ -436,10 +440,7 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🍆]' .. game.Players[v.Name].DisplayName)
                         end
-                  elseif plrID == 1522518814 then
-                        if v:FindFirstChildWhichIsA('Humanoid') then           
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤣') 
-                        end
+           
                     elseif table.find(STARS, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. game.Players[v.Name].DisplayName)
