@@ -145,7 +145,7 @@ local function checkswag()
                         end
                         elseif plrID == 1997397874 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🦍') 
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('ShisuiUchi1ha[🦍]') 
                         end
                     elseif plrID == 680317666 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
