@@ -60,7 +60,6 @@ local STARS = {
     494429223,
     51405555,
     2418360105,
-    1952241120,
     175190440,
     2255706751,
     449952176,
@@ -149,14 +148,6 @@ local function checkswag()
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('❤') 
                         end
                      elseif plrID == 1997397874 then
-                        if v:FindFirstChildWhichIsA('Humanoid') then           
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]') .. game.Players[v.Name].DisplayName) 
-                        end
-                          elseif plrID == 340736620  then
-                        if v:FindFirstChildWhichIsA('Humanoid') then           
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]') .. game.Players[v.Name].DisplayName) 
-                        end
-                        elseif plrID == 522697538 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🦍👑🐒🤬🤩⭐] kill if gay]' .. game.Players[v.Name].DisplayName) 
                         end
@@ -314,9 +305,9 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💀]' .. game.Players[v.Name].DisplayName) 
                         end
-                     elseif plrID == 2369705301  then
+                     elseif plrID == 1063324780  then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌸]' .. game.Players[v.Name].DisplayName) 
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🤡🤡]' .. game.Players[v.Name].DisplayName) 
                         end
                     elseif table.find(BOOSTERS, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
