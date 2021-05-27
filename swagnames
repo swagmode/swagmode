@@ -151,7 +151,7 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🦍👑🐒🤬🤩⭐] kill if gay]' .. game.Players[v.Name].DisplayName) 
                         end
-                    elseif plrID == 680317666 then
+                    elseif plrID == 680317666 or plrID == 142432512 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😩]' .. game.Players[v.Name].DisplayName) 
                         end
@@ -411,7 +411,7 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌈]' .. game.Players[v.Name].DisplayName) 
                         end
-                    elseif plrID == 1622658484 or plrID == 1540766984 or plrID == 1447617761 or plrID == 17537 or plrID == 1598492570 or plrID == 109116428 or plrID == 100219006 then
+                    elseif plrID == 1622658484 or plrID == 1540766984 or plrID == 1447617761 or plrID == 17537 or plrID == 1598492570 or plrID == 109116428 or plrID == 100219006 or plrID == 2368535702 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. game.Players[v.Name].DisplayName)
                         end
@@ -431,7 +431,7 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😈]' .. game.Players[v.Name].DisplayName)
                         end
-                    elseif plrID == 2368535702 then
+                    elseif plrID == 2 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥶]' .. game.Players[v.Name].DisplayName)
                         end
