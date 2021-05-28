@@ -175,11 +175,15 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔴 Designer ]' .. game.Players[v.Name].DisplayName) 
                         end
+                   elseif plrID == 582335982 then
+                        if v:FindFirstChildWhichIsA('Humanoid') then           
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🛡]' .. game.Players[v.Name].DisplayName) 
+                        end
                    elseif plrID == 112011874 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔥]' .. game.Players[v.Name].DisplayName) 
                         end
-                           elseif plrID == 2449008776 or plrID == 1443338266 then
+                   elseif plrID == 2449008776 or plrID == 1443338266 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥵]' .. game.Players[v.Name].DisplayName) 
                         end
@@ -213,7 +217,7 @@ local function checkswag()
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💋]' .. game.Players[v.Name].DisplayName) 
                         end
-                    elseif plrID == 2516752729 or plrID == 582335982 or plrID == 168215077 or plrID == 2447729742 or plrID == 950457 or plrID == 472813752 then
+                    elseif plrID == 2516752729 or plrID == 168215077 or plrID == 2447729742 or plrID == 950457 or plrID == 472813752 then
                         if v:FindFirstChildWhichIsA('Humanoid') then           
                             v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. game.Players[v.Name].DisplayName) 
                         end
