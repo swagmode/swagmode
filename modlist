@@ -204,7 +204,7 @@ ModIDS = {
     [5811685] = true,
     [1923678469] = true,
     [1380651001] = true,
-    2480910928 = true, --whitelisting his alt for now [1754808127] = true
+    [2480910928] = true, --whitelisting his alt for now [1754808127] = true
     [1622658484] = true,
     [114080011] = true,
     [2499885466] = true,
