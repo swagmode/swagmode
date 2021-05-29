@@ -170,8 +170,11 @@ function swagnames()
     for _,Player in pairs(game:GetService('Players'):GetChildren()) do
         if Player.Character then
             if Player.Character.UpperTorso then
-                if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
+                if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then 
+                    wait(1)
+                    if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then 
+                        Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
+                    end
                 end
             end
         end 
