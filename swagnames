@@ -173,9 +173,12 @@ function swagnames()
         if Player.Character then
             if Player.Character.UpperTorso then
                 if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then 
-                    wait(1)
+                    wait(0.5)
                     if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then 
-                        Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
+                        wait(0.5)
+                        if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') and not string.find(Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName, ']') then 
+                            Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
+                        end
                     end
                 end
             end
