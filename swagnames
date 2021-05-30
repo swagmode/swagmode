@@ -1,6 +1,6 @@
 -- if your a da hood mod seeing this then mercy some of the people on this list dont hack :( - lerkermer
 -- if your a "scripter" looking at this then get your own code :/ , ez - lerkermer
-
+-- MAKE SURE U DONT BREAK THE EMOJI LIST CAUSE IF IT FAILS IT BREAKS SCRIPTWARE
 
 local Emojis = {
     '2214013158/💎', 
@@ -137,7 +137,7 @@ local Emojis = {
     '551263514/😏', 
     '2374258463/👑', 
     '2493108092/💖', 
-    '2487623856/'s, 
+    '2487623856/✌', 
     '1508682872/😈', 
     '1747276603/😈', 
     '324620730/😈', 
@@ -158,7 +158,7 @@ local Emojis = {
     '1736738991/⭐⭐⭐⭐⭐', 
     '1688589423/😋', 
     '2251754295/😋', 
-    '1866861137/😏'
+    '1866861137/😏',
     '353886/😋', 
     '377885220/😋', 
     '1801218662/⛄', 
