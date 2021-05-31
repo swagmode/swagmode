@@ -190,17 +190,9 @@ local Emojis = {
 
 function swagnames()
     for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-        if Player.Character then
-            if Player.Character.UpperTorso then
-                if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then 
-                    wait(0.5)
-                    if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then 
-                        wait(0.5)
-                        if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') and not string.find(Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName, ']') then 
-                            Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
-                        end
-                    end
-                end
+        if game.Workspace.Players:FindFirstChild(Player.Name) then
+            if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then 
+                Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
             end
         end 
     end
