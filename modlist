@@ -1,5 +1,6 @@
  ModIDS = {
     [555710383] = true, -- SympingForArii
+    [2575481960] = true,
     [1708886407] = true, -- losercouncil
     [2049346249] = true, -- losersalt
     [11212285] = true, -- scarface
@@ -315,7 +316,7 @@
     [145070276] = true,
     [129514820] = true,
     [2568772907] = true,
-     [2575481960] = true,
+     
     [418193533] = true, --vfzm
     [2348742895] = true, --JEASY204
     [2409253491] = true,
