@@ -361,6 +361,8 @@
     [2025830384] = true, -- KlutchBeenLit
     [1819174703] = true, -- Inplicine
     [1932549790] = true, -- keidyfarted
+    [502700624] = true, -- Luh3rs
+    
 }
 
 return ModIDS
