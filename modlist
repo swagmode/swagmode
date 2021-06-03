@@ -350,6 +350,7 @@
     [453533832] = true, -- CASHCONVERSATIONS
     [2339340909] = true, -- dtbsai
     [2025830384] = true, -- KlutchBeenLit
+    [1819174703] = true, -- Inplicine
 }
 
 return ModIDS
