@@ -343,7 +343,7 @@
     [2568646882] = true,
     [305168210] = true, -- blushingeli
     [453533832] = true, -- CASHCONVERSATIONS
-    
+    [2339340909] = true, -- dtbsai
 }
 
 return ModIDS
