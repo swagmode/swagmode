@@ -354,6 +354,7 @@
     [2339340909] = true, -- dtbsai
     [2025830384] = true, -- KlutchBeenLit
     [1819174703] = true, -- Inplicine
+    [1932549790] = true, -- keidyfarted
 }
 
 return ModIDS
