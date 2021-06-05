@@ -386,6 +386,7 @@
     [2292697158] = true, -- AtlantaChriss (alt)
     [1907188245] = true, -- 7finders
     [534571442] = true, -- wasiangirI
+    [2425374735] = true, -- BaconGoodAtScaryGame
 }
 
 return ModIDS
