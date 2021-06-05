@@ -383,7 +383,9 @@
     [2424141840] = true, -- Azuraify
     [910641202] = true, -- AtlantaChris
     [2292697158] = true, -- AtlantaChriss (alt)
-    
+    [453313090] = true, -- AdrianNIP
+    [534571442] = true, -- wasiangirI
+    [1907188245] = true, -- 7finders
 }
 
 return ModIDS
