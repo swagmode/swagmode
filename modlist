@@ -392,6 +392,7 @@
     [534571442] = true, -- wasiangirI
     [2425374735] = true, -- BaconGoodAtScaryGame
     [55884786] = true, -- grandstar62, Mas2n Alt
+    [907596103] = true, -- dopegirII
 }
 
 return ModIDS
