@@ -402,6 +402,7 @@
     [2425374735] = true, -- BaconGoodAtScaryGame
     [55884786] = true, -- grandstar62, Mas2n Alt
     [907596103] = true, -- dopegirII
+    [1486668677] = true, -- daedauui, Expires at 6/8/2021 (2/3) Paid
 }
 
 return ModIDS
