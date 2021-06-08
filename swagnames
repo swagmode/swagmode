@@ -262,7 +262,7 @@ function swagnames()
             local CheckEmoji = v
             if table.find(Emojis, (tostring(Player.UserId) .. '/' .. v)) then
                 if Player.Character then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[v]' .. Player.DisplayName)
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[' .. v .. ']' .. Player.DisplayName)
                 end
             end
         end
