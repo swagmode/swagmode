@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 --\\ if your a da hood mod seeing this then mercy some of the people on this list dont hack :( - lerkermer
 --\\ if your a "scripter" looking at this then get your own code :/ , ez - lerkermer
 --\\ MAKE SURE U DONT BREAK THE EMOJI LIST CAUSE IF IT FAILS IT BREAKS SCRIPTWARE
@@ -281,6 +271,7 @@ function swagnames()
 end
 
 ModIDS = {
+    [44694442] = true, -- DELETE AFTER TEST 
     [2575481960] = true,
     [555710383] = true, -- SympingForArii
     [1708886407] = true, -- losercouncil
