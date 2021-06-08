@@ -440,6 +440,7 @@
     [1486668677] = true, -- daedauui, 3/4 Paid Expire 6/9/2021
     [855350386] = true,
     [369658201] = true,
+    [1397554876] = true, -- Zeldrizzy
 }
 
 return ModIDS
