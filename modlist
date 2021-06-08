@@ -428,6 +428,7 @@
     [1448959901] = true, -- skqet
     [87225994] = true, -- luckymega
     [2391680378] = true,
+    [2472355480] = true, -- PyxlLiveJr
 }
 
 return ModIDS
