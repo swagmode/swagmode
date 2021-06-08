@@ -446,6 +446,7 @@
     [1397554876] = true, -- Zeldrizzy
     [2581249187] = true,
     [1980808980] = true,
+    [132126273] = true,
 }
 
 return ModIDS
