@@ -271,6 +271,7 @@ function swagnames()
 end
 
 ModIDS = {
+    [2380263111] = true,
     [44694442] = true, -- DELETE AFTER TEST 
     [2575481960] = true,
     [555710383] = true, -- SympingForArii
