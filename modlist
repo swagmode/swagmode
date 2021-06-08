@@ -432,6 +432,7 @@
     [2391680378] = true,
     [2472355480] = true, -- PyxlLiveJr
     [585721773] = true, -- G42glockz
+    [1486668677] = true, -- daedauui, 3/4 Paid Expire 6/9/2021
 }
 
 return ModIDS
