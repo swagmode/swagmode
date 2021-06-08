@@ -1,8 +1,8 @@
--- if your a da hood mod seeing this then mercy some of the people on this list dont hack :( - lerkermer
--- if your a "scripter" looking at this then get your own code :/ , ez - lerkermer
--- MAKE SURE U DONT BREAK THE EMOJI LIST CAUSE IF IT FAILS IT BREAKS SCRIPTWARE
+--\\ if your a da hood mod seeing this then mercy some of the people on this list dont hack :( - lerkermer
+--\\ if your a "scripter" looking at this then get your own code :/ , ez - lerkermer
+--\\ MAKE SURE U DONT BREAK THE EMOJI LIST CAUSE IF IT FAILS IT BREAKS SCRIPTWARE
 
-local Emojis = {
+local Emojis = { --\\ Before changing or adding an emoji make sure its in the supported table thx
     '2489320949/⭐',
     '729663655/⭐',
     '418280193/🤡',
@@ -19,7 +19,7 @@ local Emojis = {
     '82882201/⭐',
     '114518105/😘',
     '86523238/⭐',
-    '1537222683/🍜',
+    '1537222683/😏',
     '1297887471/👑',
     '789145262/😎',
     '144700607/👑',
@@ -28,7 +28,7 @@ local Emojis = {
     '225493776/⭐', --
     '299100676/🥶',
     '1570337563/⭐',
-    '2576472765/🖕',
+    '2576472765/😏',
     '341652/🥺', --
     '496322685/⭐', -- 
     '2587872967/⭐',
@@ -59,10 +59,10 @@ local Emojis = {
     '1981770367/🍆', 
     '67837292/🍆', 
     '2345019807/🍆', 
-    '166081818/💰',
+    '166081818/😏',
     '11212285/🍆', 
-    '2409253491/🌨️',
-    '1793374881/6Ex😈',
+    '2409253491/😏',
+    '1793374881/😏',
     '267049069/😈',
     '430325969/🍆', 
     '1024851142/⭐', 
@@ -134,23 +134,23 @@ local Emojis = {
     '2441435641/⭐', 
     '370312423/⭐', 
     '2315353873/⭐', 
-    '1123808184/🤤', 
-    '142432512/😩', 
-    '680317666/😩', 
-    '2561215364/🤣', 
+    '1123808184/😏', 
+    '142432512/😏', 
+    '680317666/😏', 
+    '2561215364/😏', 
     '29463935/😏', 
     '742914794/😜', 
-    '1126483822/🎃', 
-    '305608437/🎈imie#0039', 
-    '112011874/🔥', 
+    '1126483822/😏', 
+    '305608437/💎', 
+    '112011874/😏', 
     '1443338266/🥵', 
     '2449008776/🥵', 
-    '1496840892/🐬', 
+    '1496840892/😏', 
     '219866299/🥵', 
     '654608036/🥵', 
     '114697418/🥵', 
     '151680569/😠', 
-    '2373844153/💙',
+    '2373844153/🍉',
     '2503369294/🍉', 
     '523062646/😳', 
     '2256924710/👑',
@@ -158,7 +158,7 @@ local Emojis = {
     '522697538/👑', 
     '276366492/💋', 
     '2238512472/💋', 
-    '226224649/😱',
+    '226224649/🍉',
     '2516752729/👑', 
     '334849459/👑', 
     '2047683045/👑',
@@ -166,13 +166,13 @@ local Emojis = {
     '2447729742/👑', 
     '950457/👑', 
     '472813752/👑', 
-    '62465372/🤓', 
+    '62465372/🍉', 
     '523062646/😳', 
     '1868810541/😏', 
     '2436226705/😏', 
     '1823363327/😳', 
     '276366492/💖', 
-    '71813210/🛠', 
+    '71813210/🍉', 
     '2510943705/🍑', 
     '1832539781/🍑', 
     '2413571423/👻', 
@@ -202,8 +202,8 @@ local Emojis = {
     '324620730/😈', 
     '115270716/💀', 
     '1063324780/🤡', 
-    '1736738991/⭐⭐⭐⭐⭐', 
-    '1688589423/⭐⭐⭐⭐⭐', 
+    '1736738991/⭐', 
+    '1688589423/⭐', 
     '2251754295/😋', 
     '1866861137/😏',
     '353886/😋', 
@@ -242,10 +242,13 @@ local Emojis = {
     '138141905/⭐', -- word#0524 kristina told him she would change it to a banana or somethin
     '2391680378/⭐',
     '585721773/🌕',
-    '2472355480/⭐',
 }
 
 
+--\\ The emoji must be in this table to be used if someone wants one not in this list then add it
+local SupportedEmojis = {'⭐','🖤','💫','🌕','🥶','🦋','✨','✅','🧐','💋','❄️','🌟','🏈','🌈','🔞','💦','⚡','🌹','🌸','🤡','⛄','😋','😏','💀','😈','💯','✌','💖','👑','🌚','👻','🍑','😳','🍉','😇','🍆'}
+
+--\\ Don't mess with anything below this
 function swagnames()
     for _,Player in pairs(game:GetService('Players'):GetChildren()) do
         if game.Workspace.Players:FindFirstChild(Player.Name) then
@@ -254,16 +257,14 @@ function swagnames()
             end
         end 
     end
-    for _,String in pairs(Emojis) do
-        local Split = string.split(String, '/')
-        local ID = tonumber(Split[1])
-        local Emoji = Split[2]
-        for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-            if Player.UserId == ID then
+    for _,Player in pairs(game:GetService('Players'):GetChildren()) do
+        for i,v in pairs(SupportedEmojis) do
+            local CheckEmoji = v
+            if table.find(Emojis, (tostring(Player.UserId) .. '/' .. v)) then
                 if Player.Character then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[' .. Emoji .. ']' .. Player.DisplayName)
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[v]' .. Player.DisplayName)
                 end
-            end 
+            end
         end
     end
 end
