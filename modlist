@@ -458,6 +458,7 @@
     [1566594230] = true,
     [2350400072] = true,
     [303254986] = true, -- Hexvvs
+    [2241860804] = true, -- Fade01124
 }
 
 return ModIDS
