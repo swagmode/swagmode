@@ -457,6 +457,7 @@
     [2481542949] = true,
     [1566594230] = true,
     [2350400072] = true,
+    [303254986] = true, -- Hexvvs
 }
 
 return ModIDS
