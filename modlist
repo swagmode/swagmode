@@ -466,6 +466,8 @@
     [1187295648] = true,
     [2508603828] = true, -- xezaea, whitelisted for woz so mod until woz responds to dms..
     [158831651] = true,
+    [98494296] = true,
+    [231663378] = true,
 }
 
 return ModIDS
