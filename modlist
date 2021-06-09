@@ -449,7 +449,6 @@
     [2391680378] = true,
     [2472355480] = true, -- PyxlLiveJr
     [585721773] = true, -- G42glockz
-    [1486668677] = true, -- daedauui, 3/4 Paid Expire 6/9/2021
     [855350386] = true,
     [369658201] = true,
     [1397554876] = true, -- Zeldrizzy
@@ -463,6 +462,7 @@
     [2241860804] = true, -- Fade01124
     [182778686] = true, -- doesnt work idk why
     [1187295648] = true,
+    [2508603828] = true, -- xezaea, whitelisted for woz so mod until woz responds to dms..
 }
 
 return ModIDS
