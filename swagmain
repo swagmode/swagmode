@@ -759,4 +759,3 @@ end
 return ModIDS
 
 local success,err = pcall(swagnames)
-return ModIDS
