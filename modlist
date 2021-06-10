@@ -486,6 +486,5 @@
     [2394236594] = true, -- PyxIAce
     [338518562] = true, -- OfficialTr0sh
     [85351886] = true, -- skyminer26
-    [529126910] = true, -- PoIishx
 } 
 return ModIDS
