@@ -477,7 +477,7 @@
     [2241860804] = true, -- Fade01124
     [182778686] = true, -- doesnt work idk why
     [1187295648] = true,
-    [2508603828] = true, -- xezaea, whitelisted for woz so mod until woz responds to dms..
+    [2508603828] = true, -- xezaea
     [158831651] = true,
     [98494296] = true,
     [231663378] = true,
@@ -485,6 +485,6 @@
     [1486668677] = true, -- daedauui
     [2394236594] = true, -- PyxIAce
     [338518562] = true, -- OfficialTr0sh
-    
+    [85351886] = true, -- skyminer26
 } 
 return ModIDS
