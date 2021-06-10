@@ -756,6 +756,9 @@ end
     [2394236594] = true, -- PyxIAce
     [1373856369] = true, -- fhpin
 } 
-return ModIDS
-
-local success,err = pcall(swagnames)
+coroutine.resume(coroutine.create(function()
+    return ModIDS
+end))
+coroutine.resume(coroutine.create(function()
+    local success,err = pcall(swagnames)
+end))
