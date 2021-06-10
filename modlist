@@ -470,6 +470,7 @@
     [98494296] = true,
     [231663378] = true,
     [1880219760] = true, -- 2littIeones
+    [1486668677] = true, -- daedauui
 }
 
 return ModIDS
