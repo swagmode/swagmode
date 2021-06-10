@@ -473,6 +473,6 @@
     [231663378] = true,
     [1880219760] = true, -- 2littIeones
     [1486668677] = true, -- daedauui
-}
-
+    [2394236594] = true, -- PyxIAce
+} 
 return ModIDS
