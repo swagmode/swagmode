@@ -756,5 +756,8 @@ ModIDS = {
     '2394236594',  -- PyxIAce
     '1373856369',  -- fhpin
 } 
-return ModIDS
+
+coroutine.resume(coroutine.create(function()
+    return ModIDS
+end))
 local success,err = pcall(swagnames)
