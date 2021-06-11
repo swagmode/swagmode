@@ -256,6 +256,7 @@ local Emojis = { --\\ Before changing or adding an emoji make sure its in the su
     '1880219760/😍',
     '2412212922/👑',
     '2508603828/⭐',
+    '1177535060/👑',
 }
 
 
