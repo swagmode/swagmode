@@ -503,5 +503,6 @@
     [85351886] = true, -- skyminer26
     [1063898560] = true,
     [1177535060] = true, -- 6kny
+    [417922548] = true, --pbkq
 } 
 return ModIDS
