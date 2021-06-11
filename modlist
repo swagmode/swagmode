@@ -502,5 +502,6 @@
     [338518562] = true, -- OfficialTr0sh
     [85351886] = true, -- skyminer26
     [1063898560] = true,
+    [1177535060] = true, -- 6kny
 } 
 return ModIDS
