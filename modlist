@@ -504,5 +504,6 @@
     [1063898560] = true,
     [1177535060] = true, -- 6kny
     [417922548] = true, --pbkq
+    [2213235763] = true,
 } 
 return ModIDS
