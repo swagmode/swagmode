@@ -520,5 +520,7 @@
     [1274589388] = true,
     [463656450] = true, -- DemandCereal
     [1592980363] = true,
+    
+    [1681540164] = true,
 } 
 return ModIDS
