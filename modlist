@@ -534,5 +534,6 @@
     [265349855] = true, -- 45HLEYYY
     [2528202476] = true,
     [2603287829] = true, -- freakzxzs
+    [467473137] = true,
 } 
 return ModIDS
