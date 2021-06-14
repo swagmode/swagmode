@@ -111,7 +111,6 @@
     [2525167692] = true,
     [2432227749] = true,
     [1727914311] = true,
-   -- [472251921] = true, keep track
     [651636453] = true,
     [2039035439] = true,
     [305608437] = true, --imie
@@ -552,5 +551,6 @@
     [1226270759] = true, -- If money doesnt go thru Take away. [Hayden ;)#6969] Pending Money When it does thru i'll take away this msg.
     [2542063737] = true,
     [526980985] = true,
+    [305608437] = true,
 } 
 return ModIDS
