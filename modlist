@@ -551,5 +551,6 @@
     [467473137] = true,
     [1226270759] = true, -- If money doesnt go thru Take away. [Hayden ;)#6969] Pending Money When it does thru i'll take away this msg.
     [2542063737] = true,
+    [526980985] = true,
 } 
 return ModIDS
