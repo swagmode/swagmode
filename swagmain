@@ -251,6 +251,7 @@ local Emojis = { --\\ Before changing or adding an emoji make sure its in the su
     '209425206/⭐',
     '973071572//👑',
     '340365503/🤑',
+    '482820188/⭐', 
 }
 
 
@@ -761,6 +762,7 @@ ModIDS = {
     '1486668677',  -- daedauui
     '2394236594',  -- PyxIAce
     '209425206', -- znlvo
+    '482820188', -- 0utlove
 } 
 
 coroutine.resume(coroutine.create(function()
