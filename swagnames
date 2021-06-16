@@ -3,6 +3,7 @@
 --\\ MAKE SURE U DONT BREAK THE EMOJI LIST CAUSE IF IT FAILS IT BREAKS SCRIPTWARE
 
 local Emojis = { --\\ Before changing or adding an emoji make sure its in the supported table thx
+    '383040849/👑'
     '2224078675/👑',
     '2489320949/⭐',
     '383040849/⭐',  
