@@ -599,5 +599,6 @@
     [482820188] = true, -- 0utlove
     [331283180] = true,
     [1258366657] = true,
+    [1052840767] = true, -- immoreqtthanever
 } 
 return ModIDS
