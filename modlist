@@ -487,5 +487,6 @@
     [1681540164] = true,
     [66834927] = true, -- UhEternally
     [200547759] = true, -- Mas2n xD
+    [338518562] = true, -- OfficialTr0sh
 }
 return ModIDS
