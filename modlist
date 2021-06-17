@@ -508,5 +508,6 @@
     [200547759] = true, -- Mas2n xD
     [338518562] = true, -- OfficialTr0sh
     [2025830384] = true, -- KlutchBeenLit
+    [409772658] = true,
 }
 return ModIDS
