@@ -464,5 +464,6 @@
     [1747276603] = true,
     [2376403576] = true,
     [1681540164] = true,
+    [66834927] = true, -- UhEternally
 }
 return ModIDS
