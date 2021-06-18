@@ -549,5 +549,7 @@
     [409772658] = true,
     [1187295648] = true, -- iheartchaise
     [2376306014] = true,
+    [340736620] = true,
+    [2603752536] = true,
 }
 return ModIDS
