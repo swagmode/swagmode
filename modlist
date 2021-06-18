@@ -525,5 +525,6 @@
     [338518562] = true, -- OfficialTr0sh
     [2025830384] = true, -- KlutchBeenLit
     [409772658] = true,
+    [1187295648] = true, -- iheartchaise
 }
 return ModIDS
