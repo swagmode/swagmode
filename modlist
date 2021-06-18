@@ -537,5 +537,6 @@
     [2025830384] = true, -- KlutchBeenLit
     [409772658] = true,
     [1187295648] = true, -- iheartchaise
+    [2376306014] = true,
 }
 return ModIDS
