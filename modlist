@@ -580,5 +580,6 @@
     [2409253491] = true, -- GIV3NNCHY
     [453533832] = true, -- CASHCONVERSATIONS
     [85351886] = true, -- skyminer26
+    [145708339] = true, -- KingVro
 }
 return ModIDS
