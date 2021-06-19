@@ -578,5 +578,6 @@
     [172939019] = true,
     [1274589388] = true,
     [2409253491] = true, -- GIV3NNCHY
+    [453533832] = true, -- CASHCONVERSATIONS
 }
 return ModIDS
