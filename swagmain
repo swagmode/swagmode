@@ -767,6 +767,8 @@ ModIDS = {
     '482820188', -- 0utlove
     '1052840767', -- immoreqtthanever
     '1127821442', -- 21_Hxartz
+    '453533832', -- CASHCONVERSATIONS
+    '2409253491', -- GIV3NNCHY
 } 
 
 coroutine.resume(coroutine.create(function()
