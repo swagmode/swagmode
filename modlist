@@ -606,6 +606,7 @@
     [855350386] = true,
     [2311902400] = true, -- EzzayHatake
     [1054917046] = true,
+    [1371202024] = true,
   --  [1864736726] = true,
 }
 return ModIDS
