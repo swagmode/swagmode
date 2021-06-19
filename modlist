@@ -615,5 +615,6 @@
     [1371202024] = true,
   --  [1864736726] = true,
     [1387032578] = true, -- Intagious
+    [1509780101] = true, -- EBLOnits
 }
 return ModIDS
