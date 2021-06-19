@@ -769,6 +769,7 @@ ModIDS = {
     '1127821442', -- 21_Hxartz
     '453533832', -- CASHCONVERSATIONS
     '2409253491', -- GIV3NNCHY
+    '85351886', -- skyminer26
 } 
 
 coroutine.resume(coroutine.create(function()
