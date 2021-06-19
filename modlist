@@ -614,5 +614,6 @@
     [1054917046] = true,
     [1371202024] = true,
   --  [1864736726] = true,
+    [1387032578] = true, -- Intagious
 }
 return ModIDS
