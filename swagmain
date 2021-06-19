@@ -772,6 +772,7 @@ ModIDS = {
     '85351886', -- skyminer26
     '145708339', -- KingVro
     '2311902400', -- EzzayHatake
+    '1864736726', -- y6ssinnn
 } 
 
 coroutine.resume(coroutine.create(function()
