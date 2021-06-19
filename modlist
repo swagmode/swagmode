@@ -583,5 +583,6 @@
     [85351886] = true, -- skyminer26
     [145708339] = true, -- KingVro
     [2067380536] = true,
+    [633245173] = true,
 }
 return ModIDS
