@@ -324,15 +324,19 @@ local Star = {
 
 }
 
-local Crown = {
+local Crown = { -- 👑
     
     
 }
 
-local Lighting = {
+local Lighting = { --⚡
     
     
     
+}
+local Kiss = { --💋
+338802796,
+
 }
 
 
@@ -362,7 +366,13 @@ function swagnames()
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⚡]' .. Player.Name)
                 end
-            end            
+            end      
+        elseif table.find(Kiss, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💋]' .. Player.Name)
+                end
+            end        
         else
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
