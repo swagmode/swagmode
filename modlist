@@ -652,5 +652,8 @@
     [55884786] = true,
     [491196139] = true,
     [2395613299] = true, -- dtbbullet
+    [647872401] = true, -- 0ELX
+    [2429279479] = true, -- dtbwaleedd
+    [84570351] = true, -- dtbuser
 }
 return ModIDS
