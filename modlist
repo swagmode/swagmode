@@ -651,5 +651,6 @@
     [2448045077] = true,
     [55884786] = true,
     [491196139] = true,
+    [2395613299] = true, -- dtbbullet
 }
 return ModIDS
