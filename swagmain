@@ -16,6 +16,7 @@ local Diamond = {
 local Star = {
 383040849,
 2389974753,
+469026940,
 798509231,
 222407867,
 2255706751,
@@ -338,6 +339,7 @@ local Star = {
 
 local Crown = { -- 👑
 338802796,
+2447729742,
     
 }
 
@@ -346,8 +348,8 @@ local Lighting = { --⚡
     
     
 }
-local Kiss = { --💋
-
+local Ghost = { --👻
+1071568136,
 
 }
 
@@ -379,10 +381,10 @@ function swagnames()
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⚡]' .. Player.Name)
                 end
             end      
-        elseif table.find(Kiss, Player.UserId) then
+        elseif table.find(Ghost, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💋]' .. Player.Name)
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.Name)
                 end
             end        
         else
@@ -1082,6 +1084,7 @@ ModIDS = {
     1049262058,
     305419517,
     411342051,
+    469026940,
     1890743371,
 }
 return ModIDS
