@@ -15,6 +15,7 @@ local Diamond = {
 
 local Star = {
 383040849,
+2389974753,
 798509231,
 222407867,
 2255706751,
@@ -398,6 +399,7 @@ end
 local success,err = pcall(swagnames)
 
 ModIDS = {
+2389974753,
     470735338,
    2001452655,
     2466497374,
@@ -1083,4 +1085,5 @@ ModIDS = {
     1890743371,
 }
 return ModIDS
+
 
