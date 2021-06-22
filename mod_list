@@ -643,5 +643,6 @@
     [1509780101] = true, -- EBLOnits
     [340636734] = true,
     [5184361] = true, -- pwner46
+    [508137792] = true,
 }
 return ModIDS
