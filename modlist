@@ -672,8 +672,8 @@
     [647872401] = true, -- 0ELX
     [2429279479] = true, -- dtbwaleedd
     [84570351] = true, -- dtbuser
-    [508137792] = true, -- ItsYoBoyGio1
     [411342051] = true,
     [1890743371] = true,
+    [508137792] = true, 
 }
 return ModIDS
