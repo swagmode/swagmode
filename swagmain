@@ -11,8 +11,6 @@ local Diamond = {
 92157681,
 }
 local Heart = {
-30759115,
-50813900,
 1922219400,
 74082102,
 1699430332,
@@ -445,7 +443,11 @@ local Ghost = { --👻
 1071568136,
 
 }
+local DONTGIVE = {
+30759115,
+50813900,
 
+}
 
 --\\ Don't mess with anything below this
 function swagnames()
@@ -484,6 +486,13 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[❤]' .. Player.DisplayName)
+                end
+            end    
+        else
+        elseif table.find(DONTGIVE, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[]' .. Player.DisplayName)
                 end
             end    
         else
