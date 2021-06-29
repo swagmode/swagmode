@@ -10,8 +10,9 @@ local Diamond = {
 2351144328,
 92157681,
 }
-
 local Heart = {
+30759115,
+50813900,
 1922219400,
 74082102,
 1699430332,
@@ -22,14 +23,10 @@ local Heart = {
 
 local Star = {
 330698661,
-239118272,
 559309338,
-2032769740,
-380500296, 
 151159064,
 1939619330,
 189083280,
-398698822,
 572945010,
 2281051070,
 254674,
@@ -118,7 +115,6 @@ local Star = {
 107479022,
 118247021,
 246288659,
-1440536234,
 394709518,
 230944511,
 467473137,
@@ -216,7 +212,6 @@ local Star = {
 818022641,
 204786475,
 177284958,
-207850591,
 851719140,
 183253978,
 69924376 ,
@@ -356,6 +351,7 @@ local Star = {
 221269515,
 2535595559,
 186881054,
+
 15085274,
 230859221,
 555710383,
@@ -446,11 +442,7 @@ local Ghost = { --👻
 1071568136,
 
 }
-local DONTGIVE = {
-30759115,
-50813900,
 
-}
 
 --\\ Don't mess with anything below this
 function swagnames()
@@ -489,13 +481,6 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[❤]' .. Player.DisplayName)
-                end
-            end    
-        else
-        elseif table.find(DONTGIVE, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[]' .. Player.DisplayName)
                 end
             end    
         else
@@ -549,7 +534,6 @@ ModIDS = {
 2471243671,
 907596103,
 66834927,
-17597481,
 2385302601,
 1605020394,
     470735338,
@@ -952,7 +936,6 @@ ModIDS = {
     789145262,
     2032486332,
     1965344426,
-    2377304655,
     2217167732,
     2390587362,
     207688900,
@@ -1028,7 +1011,6 @@ ModIDS = {
     36254946, -- danysdemise
     2576472765,
     2556465469,
-    398698822,
     2294188446,
     177783249,
     2510299262,
@@ -1146,6 +1128,7 @@ ModIDS = {
     2302766784,
     349828032,
     2503369294,
+    17597481,
     1753491849,
     2561215364,
     2444175576,
@@ -1441,7 +1424,6 @@ ModIDS = {
     1628806887,
     330610419,
     683015494,
-    2032769740,
     1047799451,
     1511176629,
     1937650769,
@@ -1477,13 +1459,8 @@ ModIDS = {
     151159064,
     2350400072,
     2344371496,
-    380500296,
     2622955937,
     2600182889,
-    138386257,
-    1440536234,
-    207850591,
-    239118272,
     }
 return ModIDS
 
