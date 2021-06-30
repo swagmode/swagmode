@@ -516,6 +516,7 @@ end
 local success,err = pcall(swagnames)
 
 ModIDS = {
+388827312,
 202982580, -- Temp Whitelist Remove at 2:30pm EST
 1175920573,
 144705538,
