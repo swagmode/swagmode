@@ -1585,7 +1585,3 @@ ModIDS = {
     2443619453,
     }
 return ModIDS
-
-if game.Players.LocalPlayer.Name == "OhhhJayy" then
-game.Players.LocalPlayer:Kick('\nBlacklisted\nContact imie#0039 for more info')
-end
