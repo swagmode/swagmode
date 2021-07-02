@@ -21,6 +21,7 @@ local Heart = {
 654608036,
 36254946,
 84646291,
+1832127844,
 }
 
 local Star = {
@@ -548,6 +549,7 @@ end
 local success,err = pcall(swagnames)
 
 ModIDS = {
+1832127844,
 159523713,
 370312423,
 2217521517,
