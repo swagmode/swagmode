@@ -561,6 +561,7 @@ end
 local success,err = pcall(swagnames)
 
 ModIDS = {
+362008,
 210070553,
 118770522,
 381598630,
