@@ -2,6 +2,8 @@
 --\\ if your a da hood mod seeing this then mercy some of the people on this list dont hack :( - lerkermer
 --\\ imie is so sexy, listen to me. The sexy man says u can't steal this or else ur not sexy. -imie
 --\\ MAKE SURE U DONT BREAK THE EMOJI LIST CAUSE IF IT FAILS IT BREAKS SCRIPTWARE
+
+--\\ you cant give diamonds to anyone. Only for admins. 
 local Diamond = {
 44694442,
 1688589423,
@@ -9,6 +11,10 @@ local Diamond = {
 305608437,
 2351144328,
 92157681,
+}
+
+local cucumber = {
+
 }
 local Heart = {
 30759115,
@@ -560,6 +566,12 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
+                end
+            end
+        elseif table.find(cucumber, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥒]' .. Player.DisplayName)
                 end
             end
         elseif table.find(Crown, Player.UserId) then
