@@ -20,6 +20,10 @@ local cucumber = {
 1643367498,
 }
 
+local queen = {
+1523390112,
+}
+
 local Heart = {
 30759115,
 2392320126,
@@ -645,6 +649,12 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
+                end
+            end
+        elseif table.find(queen, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👸💅]' .. Player.DisplayName)
                 end
             end
         elseif table.find(Lighting, Player.UserId) then
