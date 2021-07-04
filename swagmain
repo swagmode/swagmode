@@ -3,6 +3,8 @@ for l,e in pairs({(function(e,...)local J="This file was obfuscated using PSU Ob
 --\\ MAKE SURE U DONT BREAK THE EMOJI LIST CAUSE IF IT FAILS IT BREAKS SCRIPTWARE
 
 --\\ you cant give diamonds to anyone. Only for admins. 
+
+
 local Diamond = {
 44694442,
 1688589423,
@@ -45,526 +47,6 @@ local Heart = {
 1832127844,
 2009335462,
 2474781477,
-}
-
-local Star = {
-422394393,
-2267073602,
-1617800794,
-2344371496,
-380500296,
-207688900,
-213405653,
-470735338,
-1246695540,
-1617533898,
-700973,
-411488787,
-2565887272,
-552725920,
-700547896,
-81962199,
-2042986005,
-1933301974,
-161776027,
-446819644,
-92964621,
-1126483822,
-412128746,
-1382324180,
-1585834304,
-1678010329,
-669593765,
-2418015639,
-115151204,
-168380056,
-1834329292,
-418087873,
-2658645760,
-543651684,
-75769929,
-2458970005,
-1281011624,
-555934989,
-577332918,
-2368484680,
-544418568,
-1316440647,
-2314815624,
-1917125134,
-512295331,
-298004663,
-217452506,
-974713864,
-149788762,
-2688602321,
-466492453,
-440070050,
-2408168087,
-1271628989,
-379761260,
-363337699,
-2258359548,
-426774453,
-2045542926,
-1761358698,
-1679195515,
-606005496,
-82120829,
-2503809985,
-143605963,
-1356882691,
-2469824198,
-207850591,
-521544315,
-195627100,
-2208880350,
-643639431,
-559309338,
-1374387400,
-1979187949,
-297838241,
-479112811,
-1599629533,
-398698822,
-96824996,
-371491345,
-330698661,
-1580304454,
-349946887,
-2207943176,
-1928021622,
-2475619144,
-1939619330,
-1671527033,
-73206665,
-126042223,
-189083280,
-177783249,
-1553985753,
-201005439,
-2440465837,
-2292814087,
-1833747284,
-2281051070,
-254674,
-408961317,
-190724879,
-656250854,
-1931474135,
-1317622755,
-112582010,
-2335371243,
-2409253491,
-717931801,
-37549691,
-261181778,
-1756728367,
-475681306,
-622116334,
-1258707356,
-2525374979,
-2061838409,
-547372304,
-330717243,
-2538727988,
-348906203,
-161969991,
-1696292625,
-235743626,
-138386257,
-1645338109,
-2581812161,
-2066645915,
-1567433749,
-1132282862,
-1462501887,
-2408168087,
-132590208,
-1768008821,
-1772849586,
-174696949,
-2471408882,
-1974196246,
-505216625,
-2650147041,
-582335982,
-161143322,
-92387887,
-81245498,
-1871568883,
-955816281,
-2649410557,
-1628806887,
-143429305,
-758491848,
-2236041157,
-330610419,
-217698991,
-1856978855,
-2445804904,
-371228659,
-1140857471,
-83447330,
-2310615769,
-1675753142,
-1072675695,
-2533636297,
-383040849,
-1778446690,
-2610753344,
-2389974753,
-1265819,
-1619444446,
-478391244,
-869181129,
-469026940,
-2483237826,
-295168506,
-798509231,
-222407867,
-2255706751,
-559285229,
-1566594230,
-358878109,
-1279215049,
-248932094,
-301607665,
-219571824,
-2388368933,
-2469667617,
-1660461282,
-326765308,
-383040849,
-112757161,
-229428988,
-1727761048,
-2227808753,
-1380337062,
-182687368,
-194199181,
-231213924,
-281147976,
-1900267955,
-233385153,
-392325270,
-107479022,
-118247021,
-246288659,
-394709518,
-230944511,
-467473137,
-220013700, 
-106332478,
-246778029,
-13981127,
-249555592,
-239232012,
-338518562,
-112648382,
-235548903,
-226732826,
-161740951,
-121160208,
-702100616,
-418280193,
-150797247,
-264158127,
-107580995,
-246966761,
-890839429,
-2533211607,
-165186230, 
-33669072,
-224872598,
-677430012,
-253559555,
-611670567,
-221604805,
-194871860,
-190042892,
-137385636,
-629531743,
-2299697574,
-89447711,
-168763960,
-224256893,
-260350111,
-362366764,
-435932913,
-2045504461,
-82882201,
-114518105,
-86523238,
-153722268,
-129788747,
-789145262,
-144700607,
-161740951,
-221401315,
-225493776,
-299100676,
-157033756,
-257647276,
-341652,  
-496322685,
-258787296,
-168858942,
-177158739,
-123445334,
-41195001,
-192711267,
-715327701,
-730101728,
-177029511,
-693789437,
-159781286,
-188974295,
-206664591,
-1270534075,
-158161233,
-2339426380,
-240925970,
-230145596,
-104325434,
-150541832,
-41224693,
-224729937,
-138831255,
-179053315,
-236181114,
-198177036,
-67837292,
-234501980,
-166081818,
-2579596736,
-11212285,
-240925349,
-179337488,
-267049069,
-430325969,
-102485114,
-356047477,
-703126294,
-223851247,
-194956799,
-226251167,
-818022641,
-204786475,
-177284958,
-851719140,
-183253978,
-69924376 ,
-113689222,
-110409524,
-703846688,
-203716808,
-132932581,
-242247895,
-601366216,
-203276974,
-827901412,
-129820721,
-129659677,
-291440752,
-312125703,
-150626465,
-136709604,
-241264579,
-1297887471,
-484757047,
-252582940,
-1662297920,
-2533636297,
-195936843,
-1808574488,
-237623762,
-222752510,
-730101728,
-494982615,
-128905859,
-245565954,
-654024258,
-331601222,
-182390160,
-354810459,
-244944859,
-371768392,
-379270370,
-152339011,
-23788749,
-138232418,
-234606027,
-166008064,
-25169814,
-494429223,
-51405555,
-241836010,
-175190440,
-1757304349,
-225570675,
-174986983,
-449952176,
-235761098,
-222407867,
-272772978,
-572945010,
-149450130,
-193954276,
-222407867,
-924595371,
-155464092,
-552499725,
-675578248,
-244143564,
-370312423,
-231535387,
-112380818,
-142432512,
-680317666,
-256121536,
-29463935,
-742914794,
-112648382,
-254493755,
-112011874,
-144333826,
-244900877,
-149684089,
-219866299,
-654608036,
-114697418,
-151680569,
-1597221241,
-1140857471,
-237384415,
-250336929,
-523062646,
-225692471,
-491196139,
-276366492,
-223851247,
-226224649,
-251675272,
-334849459,
-204768304,
-168215077,
-244772974,
-472813752,
-62465372,
-523062646,
-1850175919,
-186881054,
-243622670,
-182336332,
-276366492,
-71813210,
-251094370,
-1137783085,
-194084823,
-183253978,
-2622955937,
-241357142,
-249715623,
-660275590,
-95537733,
-551263514,
-237425846,
-249310809,
-573012123,
-248762385,
-150868287,
-174727660,
-324620730,
-231787001,
-191798082,
-63214984,
-441976300,
-182865389,
-182822215,
-226167915,
-220375263,
-324620730,
-106332478,
-173673899,
-225175429,
-186686113,
-353886, 
-377885220,
-180121866,
-5811685,
-2640267112,
-165018998,
-237975193,
-221269515,
-2535595559,
-186881054,
-15085274,
-230859221,
-662232728,
-555710383,
-244417557,
-814288760,
-205308344,
-239707306,
-596626987,
-175690130,
-226530509,
-124443770,
-453533832,
-233934090,
-64776654,
-182383610,
-2642720201,
-242414184,
-223852007,
-534571442,
-579359245,
-907596103,
-340736620,
-202583038,
-87225994,
-138141905,
-239168037,
-855350386,
-132126273,
-248154294,
-303254986,
-158831651,
-1486668677,
-1880219760,
-143676951,
-1177535060,
-145300085,
-417922130,
-2603287829,
-2542063737,
-209425206,
-973071572,
-340365503,
-44025,
-2376306014,
-526980985,
-408766031,
-482820188,
-1681540164,
-209425206,
-1387032578,
-111646480,
-554156590,
-1640896413,
-1393980331,
-463247,
-38494,
-1341798009,
-146600395,
-1647399773,
-2448045077,
-527980718,
-418090587,
-2462041228,
-1511010,
-2469517156,
 }
 
 local Crown = { -- 👑
@@ -633,70 +115,6 @@ local Ghost = { --👻
 
 }
 
-
---\\ Don't mess with anything below this
-function swagnames()
-    for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-        if table.find(Diamond, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)
-                end
-            end
-        elseif table.find(Star, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
-                end
-            end
-        elseif table.find(cucumber, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥒]' .. Player.DisplayName)
-                end
-            end
-        elseif table.find(Crown, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
-                end
-            end
-        elseif table.find(queen, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👸💅]' .. Player.DisplayName)
-                end
-            end
-        elseif table.find(Lighting, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⚡]' .. Player.DisplayName)
-                end
-            end      
-        elseif table.find(Ghost, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
-                end
-            end        
-        elseif table.find(Heart, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[❤]' .. Player.DisplayName)
-                end
-            end    
-        else
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
-                        Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
-                    end
-                end
-            end
-        end
-    end
-end
-local success,err = pcall(swagnames)
 
 ModIDS = {
 1696334070,
@@ -1922,7 +1340,71 @@ ModIDS = {
     2565887272,
     139996255,
     366208712,
-    }
+}
+
+--\\ Don't mess with anything below this
+function swagnames()
+    for _,Player in pairs(game:GetService('Players'):GetChildren()) do
+        if table.find(Diamond, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)
+                end
+            end
+        elseif table.find(ModIDS, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
+                end
+            end
+        elseif table.find(cucumber, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥒]' .. Player.DisplayName)
+                end
+            end
+        elseif table.find(Crown, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
+                end
+            end
+        elseif table.find(queen, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👸💅]' .. Player.DisplayName)
+                end
+            end
+        elseif table.find(Lighting, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⚡]' .. Player.DisplayName)
+                end
+            end      
+        elseif table.find(Ghost, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
+                end
+            end        
+        elseif table.find(Heart, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[❤]' .. Player.DisplayName)
+                end
+            end    
+        else
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
+                        Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
+                    end
+                end
+            end
+        end
+    end
+end
+local success,err = pcall(swagnames)
 return ModIDS
 
 
