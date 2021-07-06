@@ -17,6 +17,7 @@ local cucumber = {
 1286725789,
 53462874,
 1643367498,
+2019980819,
 }
 
 local queen = {
@@ -1469,6 +1470,7 @@ ModIDS = {
     2375409019,
     663275231,
     2592063769,
+    2019980819,
 }
 
 --\\ Don't mess with anything below this
