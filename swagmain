@@ -190,7 +190,6 @@ local Ghost = { --👻
 ModIDS = {
 1361490073,
 2535842147,
-1277082014,
 2567733459,
 123797090, -- Remove on 7/11/2021 if the rest of payment not received.
 2067354600,
