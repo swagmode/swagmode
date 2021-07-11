@@ -42,6 +42,8 @@ local queen = {
 
 local ABC = {
 1688589423,
+109415966,
+675586857,
 }
 
 local Heart = {
