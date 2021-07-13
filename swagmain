@@ -8,7 +8,6 @@ local Diamond = {
 200547759,
 305608437,
 2351144328,
-17597481,
 92157681,
 }
 local Dizzy = { -- 💫
@@ -55,6 +54,7 @@ local ABC = {
 
 local iscool = {
 1688589423,
+17597481,
 }
 
 local Heart = {
