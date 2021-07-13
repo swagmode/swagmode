@@ -30,13 +30,18 @@ local Raider = {
 1569892972,
 358962553,
 1112423310,
+1944972396,
 1768008821,
 1159252938,
+1944972396,
 1938881174,
+2037130232,
 106804813,
 466611368,
 1597937774,
+1588475412,
 1625904038,
+248841053,
 }
 
 local queen = {
@@ -55,6 +60,7 @@ local ABC = {
 local iscool = {
 1688589423,
 17597481,
+970976,
 }
 
 local Heart = {
@@ -2043,7 +2049,7 @@ function swagnames()
        elseif table.find(iscool, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (Player.DisplayName .. ' is so COOL 😎')
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (Player.DisplayName .. ' is so COOL 🔫')
                 end
             end 
         elseif table.find(Heart, Player.UserId) then
