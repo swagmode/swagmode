@@ -14,6 +14,9 @@ local Diamond = {
 local Dizzy = { -- 💫
   632589208,
 }
+local Kiss = { -- 💋
+133066129,
+}
 
 local cucumber = {
 1812540174,
@@ -2086,6 +2089,12 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
+                end
+            end 
+        elseif table.find(Kiss, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💋]' .. Player.DisplayName)
                 end
             end 
         elseif table.find(ABC, Player.UserId) then
