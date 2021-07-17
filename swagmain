@@ -19,6 +19,10 @@ local Kiss = { -- 💋
 2367836239,
 }
 
+local SWAGMODEADMIN = {
+1736738991,
+}
+
 local cucumber = {
 1812540174,
 1286725789,
@@ -1402,7 +1406,6 @@ ModIDS = {
     2042986005,
     2035429138,
     1258707356,
-    1736738991,
     1380178370,
     322705858,
     392999059,
@@ -1415,12 +1418,12 @@ ModIDS = {
     1537868769,
     2261296273,
     2368440001,
+    1736738991,
     541984990,
     2587872967,
     122859752,
     264158127,
     2051341716,
-    1736738991,
     2597772483,
     5811685,
     276873446,
@@ -2357,6 +2360,12 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💋]' .. Player.DisplayName)
+                end
+            end 
+        elseif table.find(SWAGMODEADMIN, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('💎 SWAGMODE ADMIN 💎')
                 end
             end 
         elseif table.find(ABC, Player.UserId) then
