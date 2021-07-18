@@ -26,6 +26,7 @@ local SWAGMODEADMIN = {
 }
 
 local cucumber = {
+1993771454,
 371052654,
 1812540174,
 2692858174,
@@ -2490,6 +2491,8 @@ ModIDS = {
     502791410,
     2394118222,
     39747353,
+    1486489754,
+    1993771454,
 }
 
 --\\ Don't mess with anything below this
