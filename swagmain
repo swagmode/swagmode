@@ -4,7 +4,6 @@
 --\\ you cant give diamonds to anyone. Only for admins. 
 
 local Diamond = {
-200547759,
 305608437,
 2351144328,
 449952176,
@@ -21,7 +20,6 @@ local Kiss = { -- 💋
 }
 
 local SWAGMODEADMIN = {
-1736738991,
 200547759,
 }
 
