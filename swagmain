@@ -109,7 +109,6 @@ local Heart = {
 1644697181,
 1317622755,
 969017656,
-30759115,
 44694442,
 2603568820,
 2420371082,
@@ -131,7 +130,6 @@ local Heart = {
 2391680378,
 1810626933,
 1594457128,
-50813900,
 1922219400,
 695178713,
 74082102,
@@ -330,6 +328,14 @@ local Ghost = { --👻
 134749734,
 191198831,
 1125885551,
+}
+
+local Lu = {
+30759115,
+}
+
+local Ke = {
+50813900,
 }
 
 
@@ -2581,19 +2587,25 @@ function swagnames()
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[❤]' .. Player.DisplayName)
                 end
             end
-        elseif Player.UserID == 1736738991 then
-        if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Ke ❤')
-                end
-            end
-      
+            
         elseif table.find(Dizzy, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💫]' .. Player.DisplayName)
                 end
             end
+       elseif table.find(Lu, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Lu ❤')
+                end
+            end 
+        elseif table.find(Ke, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Ke ❤')
+                end
+            end 
         elseif table.find(ModIDS, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
