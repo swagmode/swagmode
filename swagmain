@@ -2581,6 +2581,13 @@ function swagnames()
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[❤]' .. Player.DisplayName)
                 end
             end
+        elseif Player.UserID == 1736738991 then
+        if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Ke ❤')
+                end
+            end
+      
         elseif table.find(Dizzy, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
