@@ -11,22 +11,6 @@ local Diamond = {
 2438792233,
 17597481,
 }
-local Dizzy = { -- 💫
-  632589208,
-}
-local Kiss = { -- 💋
-133066129,
-2367836239,
-2274804093,
-}
-
-local banned = { --🚫
-559285229,
-}
-
-local SWAGMODEADMIN = {
-200547759,
-}
 
 local cucumber = {
 1993771454,
@@ -83,10 +67,6 @@ local Raider = {
 1588475412,
 1625904038,
 248841053,
-}
-
-local snowflake = {
-2444175576,
 }
 
 local ABC = {
