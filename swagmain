@@ -2791,18 +2791,6 @@ function swagnames()
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥒]' .. Player.DisplayName)
                 end
             end
-        elseif table.find(snowflake, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[❄]' .. Player.DisplayName)
-                end
-            end
-        elseif table.find(queen, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👸💅]' .. Player.DisplayName)
-                end
-            end
         elseif table.find(Lighting, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
@@ -2819,61 +2807,6 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💋]' .. Player.DisplayName)
-                end
-            end 
-        elseif table.find(SWAGMODEADMIN, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('💎 SWAGMODE ADMIN 💎')
-                end
-            end 
-        elseif table.find(ABC, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[( ͡° ͜ʖ ͡°)] motherfucking gay')
-                end
-            end
-        elseif table.find(Raider, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🐓]' .. Player.DisplayName)
-                end
-            end 
-        elseif table.find(banned, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🚫]' .. Player.DisplayName)
-                end
-            end 
-       elseif table.find(iscool, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (Player.DisplayName .. ' (kinda rich💰)')
-                end
-            end 
-        elseif table.find(Heart, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[❤]' .. Player.DisplayName)
-                end
-            end
-            
-        elseif table.find(Dizzy, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💫]' .. Player.DisplayName)
-                end
-            end
-       elseif table.find(Lu, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Lu ❤')
-                end
-            end 
-        elseif table.find(Ke, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Ke ❤')
                 end
             end 
         elseif table.find(ModIDS, Player.UserId) then
