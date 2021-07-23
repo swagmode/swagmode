@@ -4,6 +4,7 @@
 --\\ you cant give diamonds to anyone. Only for admins. 
 
 local Diamond = {
+200547759,
 305608437,
 2351144328,
 449952176,
@@ -95,6 +96,7 @@ local iscool = {
 }
 
 local Heart = {
+969017656,
 2577863211,
 1644697181,
 1317622755,
