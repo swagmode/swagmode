@@ -83,11 +83,23 @@ local ABC = {
 559285229,
 2357010923,
 94752402,
+76801848,
+579359245,
+17216927,
+3351674303,
+2250205547,
+96471091,
+2357010923,
+1987199987,
 1440893795,
 192528958,
+330648345,
 109415966,
 205010970,
 675586857,
+1022463418,
+2250205547,
+
 }
 
 local iscool = {
@@ -272,6 +284,7 @@ local Crown = { -- 👑
 2656407075,
 2469637127,
 1679195515,
+1628761546,
 2578747782,
 351275546,
 1619444446,
@@ -3055,6 +3068,12 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
+                end
+            end 
+        elseif table.find(ABC, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[kristina]' .. Player.DisplayName)
                 end
             end 
         elseif table.find(ModIDS, Player.UserId) then
