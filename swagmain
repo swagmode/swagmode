@@ -90,7 +90,6 @@ local ABC = {
 3351674303,
 2250205547,
 96471091,
-2357010923,
 1987199987,
 1440893795,
 192528958,
@@ -3136,7 +3135,7 @@ function swagnames()
         elseif table.find(ABC, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🚨🚨🚨]' .. Player.DisplayName .. '(kristina minion)')
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('😂' .. Player.DisplayName)
                 end
             end 
         elseif table.find(ModIDS, Player.UserId) then
