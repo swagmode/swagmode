@@ -457,6 +457,11 @@ local Ghost = { --👻
 1125885551,
 }
 
+local lipstick = { --  💋 
+50985920,
+}
+
+
 local Lu = {
 30759115,
 }
@@ -1920,7 +1925,6 @@ ModIDS = {
     1200220775,
     2557154336,
     2392644972,
-    1373543879,
     2627929093,
     2437584870,
     2041622548,
@@ -4029,7 +4033,13 @@ function swagnames()
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
                 end
-            end 
+            end
+        elseif table.find(lipstick, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💋]' .. Player.DisplayName)
+                end
+            end
         elseif table.find(medal, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
