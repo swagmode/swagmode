@@ -123,6 +123,30 @@ local ABC = {
 2358540713,
 17216927,
 463519168,
+192528958,
+330648345,
+109415966,
+205010970,
+675586857,
+1022463418,
+2250205547,
+
+}
+
+local iscool = {
+970976,
+632589208,
+1798268454,
+502426587,
+662607189,
+}
+
+local Heart = {
+2493569721,
+2628995520,
+2577863211,
+2042986005,
+259494229,
 44694442,
 1663441668,
 2603568820,
@@ -436,22 +460,6 @@ local Ghost = { --👻
 1125885551,
 }
 
-local lipstick = { --  💋 
-133066129,
-}
-
-local Maci = {
-969017656,
-}
-
-local Lu = {
-30759115,
-}
-
-local Ke = {
-50813900,
-1736738991,
-}
 
 
 
@@ -4026,18 +4034,6 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
-                end
-            end
-        elseif table.find(lipstick, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💋]' .. Player.DisplayName)
-                end
-            end
-        elseif table.find(Maci, Player.UserId) then
-            if Player.Character then
-                if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💖]' .. 'Maci :3')
                 end
             end
         elseif table.find(medal, Player.UserId) then
