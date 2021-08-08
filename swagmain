@@ -387,6 +387,10 @@ local Crown = { -- 👑
 2230548582,
 }
 
+local ja = {
+1335471269,
+}
+
 local Lighting = { --⚡
 124430778,
 393408533,
@@ -4117,6 +4121,12 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
+                end
+            end
+         elseif table.find(ja, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Bamp KID')
                 end
             end
         elseif table.find(medal, Player.UserId) then
