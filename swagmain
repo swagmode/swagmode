@@ -390,6 +390,12 @@ local ja = {
 1335471269,
 }
 
+local Tear = {
+1928021622,
+90704975,
+51405555,
+}
+
 local Lighting = { --⚡
 124430778,
 393408533,
@@ -474,6 +480,7 @@ local Ghost = { --👻
 
 
 ModIDS = {
+203754921,
 1646813883,
 90704975,
 2537013349,
@@ -4133,6 +4140,12 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
+                end
+            end
+        elseif table.find(Tear, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⚜️]' .. Player.DisplayName)
                 end
             end
          elseif table.find(ja, Player.UserId) then
