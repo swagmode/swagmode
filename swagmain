@@ -140,7 +140,9 @@ local ABC = {
 2250205547,
 }
 
-
+local senpai = {
+17597481,
+}
 
 local iscool = {
 970976,
@@ -4421,6 +4423,12 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Bamp KID')
+                end
+            end
+         elseif table.find(senpai, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (Player.DispalyName .. 'is horny")
                 end
             end
         elseif table.find(medal, Player.UserId) then
