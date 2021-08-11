@@ -8,6 +8,7 @@ local Diamond = {
 200547759,
 305608437,
 2351144328,
+1688589423,
 449952176,
 2438792233,
 17597481,
@@ -141,9 +142,7 @@ local ABC = {
 2250205547,
 }
 
-local kris = {
-1688589423,
-}
+
 
 local iscool = {
 970976,
@@ -438,6 +437,9 @@ local Crown = { -- 👑
 2252699399,
 2394118222,
 2230548582,
+}
+
+local NoEmoji = {
 }
 
 local ja = {
@@ -4388,10 +4390,10 @@ function swagnames()
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
                 end
             end
-        elseif table.find(kris, Player.UserId) then
+        elseif table.find(NoEmoji, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('kristinaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = Player.DisplayName
                 end
             end
         elseif table.find(Tear, Player.UserId) then
