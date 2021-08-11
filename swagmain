@@ -4429,7 +4429,7 @@ function swagnames()
          elseif table.find(senpai, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (Player.DispalyName .. 'is horny")
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (Player.DispalyName .. 'is horny')
                 end
             end
         elseif table.find(medal, Player.UserId) then
