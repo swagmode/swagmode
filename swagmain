@@ -106,6 +106,7 @@ local Raider = {
 
 local medal = {
 1277970851,
+748134395,
 }
 
 local ABC = {
