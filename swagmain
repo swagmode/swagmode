@@ -449,8 +449,7 @@ local Crown = { -- 👑
 }
 
 local ja = {
-1335471269,
-748134395,
+1688589423,
 }
 
 local Tear = {
@@ -4396,7 +4395,7 @@ function swagnames()
          elseif table.find(ja, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Bamp KID')
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('kristinaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                 end
             end
         elseif table.find(medal, Player.UserId) then
