@@ -118,7 +118,9 @@ local ano = {
 511269933,
 1140857471,
 }
-
+local shaz = {
+170055237,
+}
 local ABC = {
 1404309014,
 559285229,
@@ -4690,6 +4692,12 @@ function swagnames()
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName ='[😍Shaza😍]'
+                end
+            end 
+        elseif table.find(shaz, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName ='[😍Anomaly😍]'
                 end
             end 
         elseif table.find(ModIDS, Player.UserId) then
