@@ -4707,6 +4707,7 @@ function swagnames()
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🎖️] ' .. Player.DisplayName)
                 end
             end 
+            --[[
         elseif table.find(ano, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
@@ -4719,6 +4720,7 @@ function swagnames()
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😍Anomaly'sProperty😍] ' .. Player.DisplayName)
                 end
             end 
+            ]]--
         elseif table.find(ABC, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
