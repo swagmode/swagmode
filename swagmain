@@ -4714,13 +4714,13 @@ function swagnames()
         elseif table.find(ano, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName ='[😍Shaza😍]'
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName ='[😍Shaza'sProperty😍]'
                 end
             end 
         elseif table.find(shaz, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName ='[😍Anomaly😍]'
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName ='[😍Anomaly'sProperty😍]'
                 end
             end 
         elseif table.find(ModIDS, Player.UserId) then
