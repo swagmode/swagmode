@@ -4792,7 +4792,7 @@ function swagnames()
          elseif table.find(ja, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('kristinaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (Player.DisplaName .. ' (Do Not Shoot 🛑)')
                 end
             end
         elseif table.find(medal, Player.UserId) then
