@@ -4775,7 +4775,7 @@ function swagnames()
         elseif table.find(Tear, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💸Tear💸]' .. Player.DisplayName) -- SINCE I DONT HAVE ADMIN PERM SO I TOOK CUSTOM EMOJI
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🔹🔷Tear🔷🔹]' .. Player.DisplayName) -- SINCE I DONT HAVE ADMIN PERM SO I TOOK CUSTOM EMOJI
                 end
             end
          elseif table.find(ja, Player.UserId) then
