@@ -118,7 +118,7 @@ local Raider = {
 248841053,
 }
 
-local mod = {
+local modaaa = {
 2045297791,
 }
 
@@ -5219,7 +5219,7 @@ function swagnames()
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (Player.DisplaName .. ' (Do Not Shoot 🛑)')
                 end
             end
-         elseif table.find(mod, Player.UserId) then
+         elseif table.find(modaaa, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (Player.DisplaName .. ' (😈mod😈)')
