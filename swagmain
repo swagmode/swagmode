@@ -5525,7 +5525,7 @@ function swagnames()
 				end
 			end
 
-		elseif
+		if
 			Player.Character then
 			if Player.Character.Parent.Name == 'Players' then
 				if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
@@ -5534,6 +5534,7 @@ function swagnames()
 			end
 		end
 	end
-end
+	end
+	end
 local success,err = pcall(swagnames)
 return ModIDS
