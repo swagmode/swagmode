@@ -9,6 +9,10 @@
 --\\ -{ this is open source btw at https://github.com/swagmode/swagmode/edit/main/swagmain }- you're not impressing anyone by leaking it
 --\\ REFRESH BEFORE YOU CHANGE THIS LIST BRUH
 
+BoxingChampion = {
+2817923610,
+}
+
 ModIDS = {
 2259141336,
 139841321,
@@ -5512,6 +5516,15 @@ function swagnames()
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
                 end
             end
+        else
+         
+         if table.find(BoxingChampion, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥊]' .. Player.DisplayName)
+                end
+            end
+        
         else
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
