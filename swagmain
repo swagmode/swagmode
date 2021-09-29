@@ -12,6 +12,7 @@
 BoxingChampion = {
 2817923610,
 1952395232,
+160578797,
 }
 
 ModIDS = {
@@ -6396,7 +6397,7 @@ function swagnames()
 			table.find(BoxingChampion, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥊]' .. Player.DisplayName)
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
 				end
 			end
 
