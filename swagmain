@@ -13,7 +13,9 @@ BoxingChampion = {
 1952395232,
 1934000779,
 }
-
+scammer = {
+2721998765,
+}
 ModIDS = {
 1938042167,
 1269143284,
@@ -8416,6 +8418,13 @@ function swagnames()
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName)
+				end
+			end
+		elseif
+			table.find(scammer, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Im a fucking scammer')
 				end
 			end
 		if
