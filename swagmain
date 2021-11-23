@@ -8475,7 +8475,10 @@ ModIDS = {
     160578797,
     23130,
     }
-
+    
+    kristina = {
+    1688589423,
+    }
 --\\ Don't mess with anything below this
 function swagnames()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
@@ -8493,10 +8496,10 @@ function swagnames()
 				end
 			end
 		elseif
-			table.find(scammer, Player.UserId) then
+			table.find(kristina, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('Im a fucking scammer')
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('IM THE REAL KRISTINA')
 				end
 			end
 		if
