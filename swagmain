@@ -8820,6 +8820,9 @@ ModIDS = {
     kristina = {
     1688589423,
     }
+    BoxingChampion = {
+    601414537,
+    }
 --\\ Don't mess with anything below this
 function swagnames()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
