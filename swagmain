@@ -8968,6 +8968,10 @@ ModIDS = {
     kristina = {
     1688589423,
     }
+    
+    admin = {
+    690643432,
+    }
 
 --\\ Don't mess with anything below this
 function swagnames()
@@ -8990,6 +8994,13 @@ function swagnames()
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
 					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('IM THE REAL KRISTINA')
+				end
+			end
+		elseif
+			table.find(admin, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🛡️Swagode Admin🛡️')
 				end
 			end
 		if
