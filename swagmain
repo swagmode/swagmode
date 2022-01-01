@@ -8,28 +8,6 @@
 --\\ -{ this is open source btw at https://github.com/swagmode/swagmode/edit/main/swagmain }- you're not impressing anyone  leaking it
 --\\ REFRESH BEFORE YOU CHANGE THIS LIST BRUH
 
---[[
-message('message', seconds)
-success('message', seconds)
-error('message', seconds)
-warn('message', seconds)
-]]--
-
-local Link = game:HttpGet('https://iexploit.xyz/swagmode/nope')
-
-if string.find(Link, game.Players.LocalPlayer.UserId) then
-
-game:GetService('StarterGui'):SetCore('SendNotification', {
-    Title = "Swag mode Safe Mode", 
-    Text = "Instance has been executed without a trace.", 
-    Duration = 5
-    
-})
-
-else 
-    game:HttpGet("https://swagmode.000webhostapp.com/webhook.php?username="..game.Players.LocalPlayer.Name.."&userid="..game.Players.LocalPlayer.UserId.."&jobid="..game.JobId.."&gameid="..game.PlaceId)
-end
-
 
 ModIDS = {
 321910802,
