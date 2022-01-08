@@ -10470,7 +10470,6 @@ ModIDS = {
 
     BoxingChampion = {
     601414537,
-    3092585975,
     }
     kristina = {
     1688589423,
@@ -10478,6 +10477,7 @@ ModIDS = {
 
     admin = {
     690643432,
+    3092585975,
     }
 
 --\\ Don't mess with anything below this
