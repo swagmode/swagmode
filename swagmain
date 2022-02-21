@@ -12031,10 +12031,6 @@ ModIDS = {
     1688589423,
     }
 
-    admin = {
-    690643432,
-    3092585975,
-    }
 
 --\\ Don't mess with anything below this
 function swagnames()
