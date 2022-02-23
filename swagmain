@@ -6,8 +6,9 @@
 
 --\\ -{ this is open source btw at https://github.com/swagmode/swagmode/edit/main/swagmain }- you're not impressing anyone  leaking it
 --\\ REFRESH BEFORE YOU CHANGE THIS LIST BRUH
---[[
+
 ModIDS = {
+--[[
 2427159220,
 1848549740,
 2019762161,
@@ -12089,8 +12090,9 @@ ModIDS = {
     3299856775,
     2472843531,
     3233318434,
-    
+    ]]--
     }
+
 
     BoxingChampion = {
     601414537,
