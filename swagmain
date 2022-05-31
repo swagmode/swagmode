@@ -70,7 +70,7 @@ ModIDS = {
 3106472403,
 1572312468,
 805416473,
-421190948, --// Paying tomorrow
+--421190948, --// Failure to pay, blacklisted + unappealable ban.
 30372,
 2255569766,
 2694345327,
