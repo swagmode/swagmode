@@ -1,23 +1,19 @@
 -- [[ Grants 👑 Emoji, dont whitelist ids here without permission | only in swagv3 ui so might not be in use yet ]]
 
 local id = {
-  2933289599,
-  1747276603,
-  30560843,
-  1181078159,
-  2311902400,
-  2395613299,
-  2578531818,
-  1736738991,
-  591807569,
-  3450701192,
-  130066086,
-  2607519759,
-  555710383,
-  3517263350,
-  3183682901,
-  2758727407,
-  430325969,
+  1747276603, -- SwagminPro
+  2311902400, -- ezzay
+  2395613299, -- bullet
+  2578531818, -- holdbacktac
+  1736738991, -- Musc3lar, kristina's alt
+  591807569, -- schezhuan, ke's alt
+  130066086, -- raulfalls
+  2607519759, -- SwagModeBot, kristina's alt
+  555710383, -- SwagminStaz
+  3517263350, -- ChloeSwagmin
+  3183682901, -- breakvelocity // machport
+  2758727407, -- SwagminPeter // Senpai
+  430325969, -- SwagminAndy
   1907244012,
   264746515,
 }
