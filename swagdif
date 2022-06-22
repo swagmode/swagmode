@@ -1,7 +1,6 @@
 -- [[ Grants 👑 Emoji, dont whitelist ids here without permission | only in swagv3 ui so might not be in use yet ]]
 
-local id = { 
-
+local id = {
   2933289599,
   1747276603,
   30560843,
