@@ -17,6 +17,7 @@ local id = {
   430325969, -- SwagminAndy
   1907244012,
   264746515,
+  170526279, -- 0uwy
 }
 
 return id;
