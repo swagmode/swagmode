@@ -19,6 +19,7 @@ local id = {
   430325969, -- SwagminAndy
   170526279, -- Mason's alt
   16917269,
+  2253898245, -- angra (ke friend)
 }
 
 return id;
