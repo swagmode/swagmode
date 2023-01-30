@@ -8,7 +8,7 @@ for n,e in pairs({(function(e,...)_27182afa25b775ec="This file was obfuscated us
 --\\ REFRESH BEFORE YOU CHANGE THIS LIST BRUH
 ModIDS = {
 3294439148,
-1031022779,
+--// 1031022779, blacklisted for refunding.
 840713664,
 3714146035,
 1087552205,
