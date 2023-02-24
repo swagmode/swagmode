@@ -6,6 +6,7 @@ for n,e in pairs({(function(e,...)_27182afa25b775ec="This file was obfuscated us
 --\\ -{ this is open source btw at https://github.com/swagmode/swagmode/edit/main/swagmain }- you're not impressing anyone  leaking it
 --\\ REFRESH BEFORE YOU CHANGE THIS LIST BRUH
 ModIDS = {
+1822973968,
 75536327,
 2575785936,
 282901498,
@@ -8633,7 +8634,7 @@ ModIDS = {
 631787256,
 1207497542,
 1029118881,
-1366200493,
+--// 1366200493, blacklisted for scamming
 425733136,
 3003727273,
 --// 1155366320, -- Don't whitelist this person - MAS2N
