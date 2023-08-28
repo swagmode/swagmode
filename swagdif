@@ -21,7 +21,6 @@ local id = {
   2253898245, -- angra (ke friend)
   3333419119, -- Ace
   1657843102, -- Sai
-  539902637, -- Slama from thvink
 }
 
 return id;
